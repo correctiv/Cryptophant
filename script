@@ -1,0 +1,53 @@
+* Holistic Security crash course (maybe give out a short Best Practices
+  Handout??)
+  ** introducing people to simple concepts like locking their computer screen
+  when they are away from their desks
+  ** hard drive encryption: how does it work? why is it important?
+  ** email encryption: ...
+  ** ...
+
+
+Encrypt Emails
+
+Why bother?
+
+* well. if you need to send private information via the conventional mail, you'd  probably put it in a sealed envelope
+* you don't want your bank sending your balance and stuff on a postcard. or you
+ wouldn't want that leaks sent to you get in the wrong hands and your sources
+ get compromised
+* normal email is like using post cards
+* when it was designed, maliscious use and privacy were not on people's minds
+* so with standard email you face 2 potential problems:
+  * anyone with a bit of knowledge can intercept and read your message
+  * anyone could impersonate you and write messages in your name to 3rd parties
+  * you can't be really sure that the mail coming from alice@... is really from alice
+
+* How does email encryption solve this?
+  ** you can encrypt mail meant for particular receivers so that only they are
+  able to decrypt it and read its contents
+  ** you can digitally sign the mail you send which insures others that the
+  you really were the author of the mail
+* How does it work?
+  ** the technique is based on mathematical operations with large numbers
+  ** it's called asymmetric encryption, because it uses a pair of 2 keys
+  ** there's the public key you distribute to anyone who will be writing to you
+  ** they can use it to encrypt the messages meant for you
+  ** only you will be able to decrypt them because only you have your private
+  key
+  ** you should be really really careful with your private key. never give it
+  away or put it in a place where others can access it
+  ** it is a good idea to make a backup of you keypair. if you lose your
+  private key, you won't be able to access your encrypted messages anymore
+  ** you can also use your private key to digitally sign mail you send out
+  ** the recepients who have your public key would be able to verify that the
+  mail really came from you
+
+* What does email encryption _not_ solve?
+  ** People interested in your communication can still see whom are you talking
+  to when (and read the subject line of the mail); this is the so called meta
+  data. and in some cases this really is more than enough
+
+Extra
+* screen locken
+* wie mache ich ein sicheres Passwort
+* passwort manager
