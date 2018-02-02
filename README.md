@@ -5,12 +5,14 @@ A mail ecryption crash course for journalists
 ## to view the presentation
 
 * checkout this repo
+* change directory to the one where you checked the repo out
 * checkout [revealjs](https://github.com/hakimel/reveal.js) in the same directory under the name `reveal.js`
 * open the `slides.html` file in your browser
 
 ## to build the slides
 
 * checkout this repo
+* change directory to the one where you checked the repo out
 * checkout [revealjs](https://github.com/hakimel/reveal.js) in the same directory under the name `reveal.js`
 * edit the source of the slides: the `slides.md` file
 
