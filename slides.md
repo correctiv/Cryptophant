@@ -27,7 +27,7 @@
 
 ### How does email encryption solve this?
 
-* you can encrypt mail meant for particular receivers so that only they are able to decrypt it and read its contents
+* you can encrypt mail meant for particular recepients so that only they are able to decrypt it and read its contents
 * you can digitally sign the mail you send which insures others that the you really were the author of the mail
 
 ---
