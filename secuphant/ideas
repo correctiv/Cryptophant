@@ -1,0 +1,88 @@
+# Brainstorm Security Know-Lunch
+
+## This talk is NOT about
+Physical Security:
+* lock picking the door
+* we really need to think about how we leave computers in the office, there should be a way to lock them up
+--> we will need to talk about this at another point though!
+
+## This talk is about
+
+* Passwords
+** Password manager
+** rule
+https://xkcd.com/936/
+** favourite song, etc --> take first letters (
+** change password every 6 months (ahem, David)
+** write them down but not on a post it next to the computer screen
+
+* 2factor auth?
+
+* update your computer regularly
+* Lock your screen while away
+
+Encrypt all the things!
+* website traffic:
+    * https/vpn/tor... <-- what's this
+* mail -- gpg
+
+    * GPG Keys
+
+    ** Philips idea: make a key signing party! 🎉
+
+* hdd
+
+    * backups (encrypted!)
+
+    * regular
+
+    * another location
+
+    * make sure they can actually be restored^^
+
+    * destroy sensitive information
+
+* chat/messaging 
+
+    * (keypass? jabber; signal)
+
+
+* smartphones
+  * don't load your gpg key on your smart phone!
+
+* browser plugins?
+ * adblock
+ * umatrix
+ * https everywhere
+ 
+ * start page instead of google
+
+* on a public machine:
+    * use privacy mode
+    * always log out from services
+    
+
+* on a windows machine:
+    * antivirus software: keep up to date, run regularly
+    * firewall
+
+
+What to do if you lose your computer
+
+Reading recommendations:
+    * Security in a Box: https://securityinabox.org/en/
+
+
+Articles to read (again):
+    https://medium.com/@chulu/5-ways-to-be-better-at-passwords-db74fbb4d104
+    https://consumerist.com/2010/07/09/create-a-different-password-for-every-site-and-never-forget-a-single-one/
+    https://xeushack.com/choosing-a-strong-password-in-2017/
+    
+    
+How to structure it?
+
+What insights should people take home?
+- What are really important points
+- Different strategies to cope with a pile of stuff that doesn't actually interest them but is important (e.g. how to come up with and manage unique secure passwords)
+
+"If privacy is outlawed, only outlaws will have privacy." -- Phil Zimmermann, creator of PGP
