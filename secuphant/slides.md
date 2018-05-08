@@ -42,6 +42,8 @@
 
 <img src="img/cyber.jpeg" height="400">
 
+<small>Credits: [https://cyber.equipment/](https://cyber.equipment/)</small>
+
 ---
 
 * regelmäßige Updates
