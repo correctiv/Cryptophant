@@ -112,63 +112,8 @@ Und so wie so:
 ## Email - mit GPG
 
 * GPG Keys: nur du hast den privaten Schlüssel! Backup!
-* betreff/metadaten
-* Philips idea: make a key signing party! 🎉
-
----
-
-## Why bother?
-
----
-
-<img src="img/key_cryptocard.jpg" height="400">
-
-<small>Credits:
-[https://github.com/ccchh/Cryptoparty-Slides](https://github.com/ccchh/Cryptoparty-Slides)</small>
-
-
----
-
-### Problems with unencrypted email
-
-* not private
-* doesn't guarantee the identity of the sender
-
----
-
-### How does email encryption solve this?
-
-* you can encrypt mail meant for particular recepients so that only they are able to decrypt it and read its contents
-* you can digitally sign the mail you send which insures others that the you really were the author of the mail
-
----
-
-### How does it work?
-
-* mathematical operations with large numbers
-* asymmetric encryption: uses a pair of 2 keys
-* public key: you distribute it to anyone who will be writing to you
-* private key: you use it to decrypt the messages
-* keep your private key private
-* make a backup
-
----
-
-### What does email encryption _not_ solve?
-
-* who are you talking to when
-* subject line
-
----
-
-We recommend:
-
-<img src="img/thunderbird_logo.jpg" height="200">
-<img src="img/Enigmail_Logo.png" height="200">
-
----
-
-<img src="img/thunderbird_compose.png">
+* Betreff/Metadaten
+* Key signing party! 🎉
 
 ---
 
