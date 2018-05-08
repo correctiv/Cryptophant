@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="generator" content="pandoc">
+  <title>(IT) Security Know Lunch</title>
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+  <link rel="stylesheet" href="reveal.js/css/reveal.css">
+  <style type="text/css">code{white-space: pre;}</style>
+  <link rel="stylesheet" href="reveal.js/css/theme/black.css" id="theme">
+  <!-- Printing and PDF exports -->
+  <script>
+    var link = document.createElement( 'link' );
+    link.rel = 'stylesheet';
+    link.type = 'text/css';
+    link.href = window.location.search.match( /print-pdf/gi ) ? 'reveal.js/css/print/pdf.css' : 'reveal.js/css/print/paper.css';
+    document.getElementsByTagName( 'head' )[0].appendChild( link );
+  </script>
+  <!--[if lt IE 9]>
+  <script src="reveal.js/lib/js/html5shiv.js"></script>
+  <![endif]-->
+</head>
+<body>
+  <div class="reveal">
+    <div class="slides">
+
+<section>
+  <h1 class="title">(IT) Security Know Lunch</h1>
+</section>
+
+<section class="slide level1">
+
+<p>How to structure it?</p>
+<p>What insights should people take home? - What are really important points - Different strategies to cope with a pile of stuff that doesn't actually interest them but is important (e.g. how to come up with and manage unique secure passwords)</p>
+</section>
+<section class="slide level1">
+
+<blockquote>
+<p>&quot;If privacy is outlawed, only outlaws will have privacy.&quot; -- Phil Zimmermann, creator of PGP</p>
+</blockquote>
+<blockquote>
+<p>&quot;Arguing that you don't care about privacy because you have nothing to hide is no different than saying you don't care about free speech because you have nothing to say.&quot; -- Edward Snowden</p>
+</blockquote>
+</section>
+<section class="slide level1">
+
+<p>Kein Computer besitzen! eigenes Verhalten und Crypto!</p>
+</section>
+<section id="darüber-reden-wir-heute-nicht" class="slide level1">
+<h1>Darüber reden wir heute nicht</h1>
+</section>
+<section class="slide level1">
+
+<h2 id="physical-security">Physical Security</h2>
+<ul>
+<li class="fragment">wir müssen doch wann anders davon reden</li>
+</ul>
+</section>
+<section class="slide level1">
+
+<h2 id="und-trotzdem..">Und trotzdem..</h2>
+<ul>
+<li class="fragment">Lassen Sie Ihr Gepäck nicht unbeaufsichtigt^^</li>
+<li class="fragment">Bildschirm sperren, wenn man vom Schreibtisch weggeht</li>
+</ul>
+</section>
+<section id="wovon-wir-heute-reden" class="slide level1">
+<h1>Wovon wir heute reden</h1>
+</section>
+<section id="sichere-passwörter" class="slide level1">
+<h1>Sichere Passwörter</h1>
+</section>
+<section class="slide level1">
+
+<ul>
+<li class="fragment">nur du kennst es</li>
+<li class="fragment">oder nur du hast es</li>
+</ul>
+</section>
+<section class="slide level1">
+
+<p><img src="img/password_strength.png" height="400"></p>
+<p><small>Credits: <a href="https://www.xkcd.com/936/" class="uri">https://www.xkcd.com/936/</a></small></p>
+</section>
+<section class="slide level1">
+
+<p>Was sagt uns der Comic?</p>
+<ul>
+<li class="fragment">use as many characters as possible</li>
+<li class="fragment">kurze Passwörter mit ersetzten Zeichen sind schwierig zu merken und leicht zu knacken</li>
+</ul>
+</section>
+<section class="slide level1">
+
+<h2 id="strategien">Strategien</h2>
+<ol type="1">
+<li class="fragment"><p>4 random common words combined together</p></li>
+<li class="fragment">Regel</li>
+</ol>
+<ul>
+<li class="fragment">favourite song, etc --&gt; take first letters</li>
+</ul>
+<ol start="3" type="1">
+<li class="fragment">Password manager</li>
+</ol>
+<ul>
+<li class="fragment">LastPass</li>
+<li class="fragment">KeePass</li>
+<li class="fragment">..</li>
+</ul>
+</section>
+<section class="slide level1">
+
+<p>Still</p>
+<ul>
+<li class="fragment">it's ok to write them down but not on a post-it next to the computer screen (if you otherwise forget them and lock yourself out of your account)</li>
+</ul>
+</section>
+<section class="slide level1">
+
+<p>Und so wie so: * alle 6 Monate Password ändern</p>
+</section>
+<section class="slide level1">
+
+<ul>
+<li class="fragment">2factor auth</li>
+</ul>
+<p><a href="https://twofactorauth.org" class="uri">https://twofactorauth.org</a></p>
+</section>
+<section class="slide level1">
+
+<p><img src="img/encrypt-all-the-things.png" height="400"></p>
+<p><small>Credits: <a href="http://csharpner.com/blog/index.php/encrypt-all-the-things-a-guide/" class="uri">http://csharpner.com/blog/index.php/encrypt-all-the-things-a-guide/</a></small></p>
+</section>
+<section class="slide level1">
+
+<h2 id="website-traffic">website traffic:</h2>
+<ul>
+<li class="fragment">https/vpn/tor... &lt;-- what's this</li>
+</ul>
+</section>
+<section class="slide level1">
+
+<h2 id="mail----gpg">mail -- gpg</h2>
+<ul>
+<li class="fragment">wer macht das bereits?</li>
+<li class="fragment">GPG Keys: nur du hast den privaten Schlüssel! Backup!</li>
+<li class="fragment">Philips idea: make a key signing party! 🎉</li>
+</ul>
+</section>
+<section class="slide level1">
+
+<h2 id="why-bother">Why bother?</h2>
+</section>
+<section class="slide level1">
+
+<p><img src="img/key_cryptocard.jpg" height="400"></p>
+<p><small>Credits: <a href="https://github.com/ccchh/Cryptoparty-Slides" class="uri">https://github.com/ccchh/Cryptoparty-Slides</a></small></p>
+</section>
+<section class="slide level1">
+
+<h3 id="problems-with-unencrypted-email">Problems with unencrypted email</h3>
+<ul>
+<li class="fragment">not private</li>
+<li class="fragment">doesn't guarantee the identity of the sender</li>
+</ul>
+</section>
+<section class="slide level1">
+
+<h3 id="how-does-email-encryption-solve-this">How does email encryption solve this?</h3>
+<ul>
+<li class="fragment">you can encrypt mail meant for particular recepients so that only they are able to decrypt it and read its contents</li>
+<li class="fragment">you can digitally sign the mail you send which insures others that the you really were the author of the mail</li>
+</ul>
+</section>
+<section class="slide level1">
+
+<h3 id="how-does-it-work">How does it work?</h3>
+<ul>
+<li class="fragment">mathematical operations with large numbers</li>
+<li class="fragment">asymmetric encryption: uses a pair of 2 keys</li>
+<li class="fragment">public key: you distribute it to anyone who will be writing to you</li>
+<li class="fragment">private key: you use it to decrypt the messages</li>
+<li class="fragment">keep your private key private</li>
+<li class="fragment">make a backup</li>
+</ul>
+</section>
+<section class="slide level1">
+
+<h3 id="what-does-email-encryption-not-solve">What does email encryption <em>not</em> solve?</h3>
+<ul>
+<li class="fragment">who are you talking to when</li>
+<li class="fragment">subject line</li>
+</ul>
+</section>
+<section class="slide level1">
+
+<p>We recommend:</p>
+<p><img src="img/thunderbird_logo.jpg" height="200"> <img src="img/Enigmail_Logo.png" height="200"></p>
+</section>
+<section class="slide level1">
+
+<p><img src="img/thunderbird_compose.png"></p>
+</section>
+<section class="slide level1">
+
+<h2 id="festplatten">Festplatten</h2>
+<ul>
+<li class="fragment">wer macht das? wer macht das noch nicht?</li>
+<li class="fragment">regelmäßige Backups (encrypted!)</li>
+<li class="fragment">another location</li>
+<li class="fragment">make sure they can actually be restored^^</li>
+<li class="fragment">sensible Information vernichten</li>
+</ul>
+</section>
+<section class="slide level1">
+
+<h2 id="chatmessaging">chat/messaging</h2>
+<ul>
+<li class="fragment">keypass?</li>
+<li class="fragment">jabber;</li>
+<li class="fragment">signal</li>
+</ul>
+</section>
+<section class="slide level1">
+
+<h2 id="smartphones">smartphones</h2>
+<ul>
+<li class="fragment">noch unsicherer als Rechner^^</li>
+<li class="fragment">don't load your gpg key on your smart phone!</li>
+</ul>
+</section>
+<section id="außerdem" class="slide level1">
+<h1>Außerdem</h1>
+</section>
+<section class="slide level1">
+
+<ul>
+<li class="fragment">regelmäßige Updates</li>
+</ul>
+</section>
+<section class="slide level1">
+
+<ul>
+<li class="fragment">on a windows machine:
+<ul>
+<li class="fragment">antivirus software: keep up to date, run regularly</li>
+<li class="fragment">firewall</li>
+</ul></li>
+</ul>
+</section>
+<section class="slide level1">
+
+<ul>
+<li class="fragment">on a public machine:
+<ul>
+<li class="fragment">use privacy mode</li>
+<li class="fragment">always log out from services</li>
+</ul></li>
+</ul>
+</section>
+<section class="slide level1">
+
+<ul>
+<li class="fragment">browser plugins?</li>
+<li class="fragment">adblock</li>
+<li class="fragment">umatrix</li>
+<li class="fragment"><p>https everywhere</p></li>
+<li class="fragment"><p>start page instead of google</p></li>
+</ul>
+</section>
+<section id="what-to-do-if-you-lose-your-computer" class="slide level1">
+<h1>What to do if you lose your computer</h1>
+</section>
+<section class="slide level1">
+
+<ul>
+<li class="fragment">ärgerlich, aber wenn er verschlüsselt war und aktuelle(!) backups vorliegen, erstmal nicht so schlimm</li>
+</ul>
+<p>sonst * ist man ziemlich am Arsch * Schaden minimieren: alle möglichen Passwörter schnellstmöglich ändern</p>
+</section>
+<section id="step-action-plan" class="slide level1">
+<h1>5 Step Action Plan</h1>
+</section>
+<section class="slide level1">
+
+<ol type="1">
+<li class="fragment">Festplatte verschlüsseln</li>
+<li class="fragment">Regelmäßige Backups auf eine externe Festplatte einrichten</li>
+<li class="fragment">Sich eine Passwort-Strategie überlegen und durchziehen</li>
+<li class="fragment"></li>
+<li class="fragment">Bonus: 2 factor auth</li>
+</ol>
+</section>
+<section id="fragen" class="slide level1">
+<h1>Fragen?</h1>
+</section>
+<section class="slide level1">
+
+<h2 id="lektüreempfehlungen">Lektüreempfehlungen</h2>
+<ul>
+<li class="fragment">https://xeushack.com/choosing-a-strong-password-in-2017/</li>
+<li class="fragment">Security in a Box: https://securityinabox.org/en/</li>
+</ul>
+</section>
+<section id="danke" class="slide level1">
+<h1>Danke!</h1>
+<p>Dieser Vortrag steht unter der <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.de">Creative Commons BY-SA Lizenz</a>.</p>
+<p><img src="img/Cc-by_new_white.svg" alt="by" /> <img src="img/Cc-sa_white.svg" alt="sa" /></p>
+</section>
+    </div>
+  </div>
+
+  <script src="reveal.js/lib/js/head.min.js"></script>
+  <script src="reveal.js/js/reveal.js"></script>
+
+  <script>
+
+      // Full list of configuration options available at:
+      // https://github.com/hakimel/reveal.js#configuration
+      Reveal.initialize({
+
+        // Optional reveal.js plugins
+        dependencies: [
+          { src: 'reveal.js/lib/js/classList.js', condition: function() { return !document.body.classList; } },
+          { src: 'reveal.js/plugin/zoom-js/zoom.js', async: true },
+          { src: 'reveal.js/plugin/notes/notes.js', async: true }
+        ]
+      });
+    </script>
+    </body>
+</html>

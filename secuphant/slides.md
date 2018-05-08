@@ -1,5 +1,7 @@
 % (IT) Security Know Lunch
 
+https://pixabay.com/en/safe-vault-steel-door-banking-913452/
+
 ---
 
 How to structure it?
@@ -18,13 +20,25 @@ What insights should people take home?
 
 ---
 
+Kein Computer besitzen!
+eigenes Verhalten und Crypto! (crypto schützt nicht gegen alles)
+die einzelnen Maßnamen schützen gegen konkrete Sachen
+(e.g. Festplattenverschlüsselung: HDD kann nicht gelesen werden, wenn der Rechner aus ist)
+
+
+---
+
+* regelmäßige Updates
+
+---
+
 # Darüber reden wir heute nicht
 
 ---
 
 ## Physical Security
 
-* we will need to talk about this at another point though!
+* wir müssen doch wann anders davon reden
 
 ---
 
@@ -39,7 +53,12 @@ What insights should people take home?
 
 ---
 
-## Sichere Passwörter
+# Sichere Passwörter
+
+---
+
+* nur du kennst es
+* oder nur du hast es
 
 ---
 
@@ -51,45 +70,40 @@ What insights should people take home?
 
 Was sagt uns der Comic?
 
+* use as many characters as possible
+* kurze Passwörter mit ersetzten Zeichen sind schwierig zu merken und leicht zu knacken
+
 ---
 
-Strategien
+## Strategien
 
-1)
-* use as many characters as possible
-* 4 random common words combined together
+1. 4 random common words combined together
 
-2)
-** rule
-** favourite song, etc --> take first letters (
+2. Regel
+* favourite song, etc --> take first letters
 
-3)
-* Password manager
-    * LastPass
+3. Password manager
+* LastPass
+* KeePass
+* ..
 
 ---
 
 Still
 
-** it's ok to write them down but not on a post-it next to the computer screen
+* it's ok to write them down but not on a post-it next to the computer screen
 (if you otherwise forget them and lock yourself out of your account)
 
 ---
 
 Und so wie so:
-* change password every 6 months
+* alle 6 Monate Password ändern
 
 ---
 
-* 2factor auth?
-https://twofactorauth.org
+* 2factor auth
 
----
-
-* update your computer regularly
-
----
-
+[https://twofactorauth.org](https://twofactorauth.org)
 
 ---
 
@@ -99,15 +113,19 @@ https://twofactorauth.org
 
 ---
 
-* website traffic:
-    * https/vpn/tor... <-- what's this
+## website traffic:
+
+* https
 
 ---
 
-* mail -- gpg
+## mail -- gpg
 
-    * GPG Keys
-    ** Philips idea: make a key signing party! 🎉
+* wer macht das bereits?
+* GPG Keys: nur du hast den privaten Schlüssel! Backup!
+* Philips idea: make a key signing party! 🎉
+* team key abschaffen??
+* betreff/metadaten
 
 ---
 
@@ -166,44 +184,26 @@ We recommend:
 
 ---
 
-* hdd
+## Festplatten
 
-    * backups (encrypted!)
-
-    * regular
-
-    * another location
-
-    * make sure they can actually be restored^^
-
-    * destroy sensitive information
+* wer macht das? wer macht das noch nicht?
+* regelmäßige Backups (encrypted!)
+  * another location
+  * make sure they can actually be restored^^
+* sensible Information vernichten
 
 ---
 
-* chat/messaging 
-
-    * (keypass? jabber; signal)
+# Außerdem
 
 ---
 
-* smartphones
-  * don't load your gpg key on your smart phone!
+## smartphones
 
----
+* noch unsicherer als Rechner^^
+* don't load your gpg key on your smart phone!
+* messaging (signal)
 
-* browser plugins?
- * adblock
- * umatrix
- * https everywhere
- 
- * start page instead of google
-
----
-
-* on a public machine:
-    * use privacy mode
-    * always log out from services
-    
 ---
 
 * on a windows machine:
@@ -212,7 +212,30 @@ We recommend:
 
 ---
 
-What to do if you lose your computer
+* on a public machine:
+    * use privacy mode
+    * always log out from services
+
+---
+
+* browser plugins?
+ * adblock
+ * umatrix
+ * https everywhere
+
+ * start page instead of google
+
+---
+
+# 5 Step Action Plan
+
+---
+
+1. Regelmäßig Updates machen
+2. Sich eine Passwort-Strategie überlegen und durchziehen
+3. Festplatte verschlüsseln
+4. Regelmäßige Backups auf eine externe verschlüsselte Festplatte einrichten
+5. Verschlüsselte Kommunikation
 
 ---
 
@@ -222,6 +245,7 @@ What to do if you lose your computer
 
 ## Lektüreempfehlungen
 
+* https://xeushack.com/choosing-a-strong-password-in-2017/
 * Security in a Box: https://securityinabox.org/en/
 
 ---

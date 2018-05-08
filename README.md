@@ -3,7 +3,7 @@
 This repository contains following presentations:
 
 * mailophant: A mail ecryption crash course for journalists
-* secuphant: A more general (IT) security crash course for journalists
+* secuphant: A more general (IT) security crash course for journalists (in German)
 
 ## to view the presentations
 
