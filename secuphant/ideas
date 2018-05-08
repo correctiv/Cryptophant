@@ -8,13 +8,28 @@ Physical Security:
 
 ## This talk is about
 
+Kein Computer besitzen!
+* digital ist leicht zu
+  * finden
+  * verarbeiten
+  * tracken (mit dem Internet!)
+* für wirklich sichere/private sachen soll man abwegen in den wald zu gehen
+ (ohne handy)
+
+eigenes Verhalten und Crypto!
+* (crypto schützt nicht gegen alles)
+* zb nicht gegen PW klebt am Bildschirm
+
+die einzelnen Maßnamen schützen gegen konkrete Sachen
+(e.g. Festplattenverschlüsselung: HDD kann nicht gelesen werden, wenn der Rechner aus ist)
+
 * Passwords
 ** Password manager
 ** rule
 https://xkcd.com/936/
 ** favourite song, etc --> take first letters (
 ** change password every 6 months (ahem, David)
-** write them down but not on a post it next to the computer screen
+** write them down (especially if in danger of forgetting) but not on a post it next to the computer screen
 
 * 2factor auth?
 
@@ -42,13 +57,12 @@ Encrypt all the things!
 
     * destroy sensitive information
 
-* chat/messaging 
 
-    * (keypass? jabber; signal)
-
-
-* smartphones
+Smartphones
+  * noch unsicherer als Rechner^^
   * don't load your gpg key on your smart phone!
+  * Messaging
+
 
 * browser plugins?
  * adblock

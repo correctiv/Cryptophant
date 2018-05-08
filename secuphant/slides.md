@@ -1,14 +1,8 @@
 % (IT) Security Know Lunch
 
-https://pixabay.com/en/safe-vault-steel-door-banking-913452/
+--- 
 
----
-
-How to structure it?
-
-What insights should people take home?
-- What are really important points
-- Different strategies to cope with a pile of stuff that doesn't actually interest them but is important (e.g. how to come up with and manage unique secure passwords)
+<img src="img/safe.jpg" height="400">
 
 ---
 
@@ -20,15 +14,8 @@ What insights should people take home?
 
 ---
 
-Kein Computer besitzen!
-eigenes Verhalten und Crypto! (crypto schützt nicht gegen alles)
-die einzelnen Maßnamen schützen gegen konkrete Sachen
-(e.g. Festplattenverschlüsselung: HDD kann nicht gelesen werden, wenn der Rechner aus ist)
-
-
----
-
-* regelmäßige Updates
+<img src="img/aspirations.png" height="400">
+<img src="img/pidgeon.png" height="400">
 
 ---
 
@@ -53,6 +40,14 @@ die einzelnen Maßnamen schützen gegen konkrete Sachen
 
 ---
 
+<img src="img/cyber.jpeg" height="400">
+
+---
+
+* regelmäßige Updates
+
+---
+
 # Sichere Passwörter
 
 ---
@@ -70,40 +65,35 @@ die einzelnen Maßnamen schützen gegen konkrete Sachen
 
 Was sagt uns der Comic?
 
-* use as many characters as possible
+* so viele Zeichen wie möglich nutzen
 * kurze Passwörter mit ersetzten Zeichen sind schwierig zu merken und leicht zu knacken
 
 ---
 
 ## Strategien
 
-1. 4 random common words combined together
-
-2. Regel
-* favourite song, etc --> take first letters
-
-3. Password manager
-* LastPass
-* KeePass
-* ..
+1. 4 zufällige häufig vorkommende Wörter
+2. Regel: Lieblingslied, -gedicht etc + Teil der Domain Name
+3. Password manager: Enpass, KeePass
 
 ---
 
-Still
+Dennoch
 
-* it's ok to write them down but not on a post-it next to the computer screen
-(if you otherwise forget them and lock yourself out of your account)
+* aufschreiben ist ok 
+* (nur nicht auf nem post-it, das am Bildschirm klebt)
 
 ---
 
 Und so wie so:
+
 * alle 6 Monate Password ändern
 
 ---
 
-* 2factor auth
+## 2-factor Auth
 
-[https://twofactorauth.org](https://twofactorauth.org)
+* [https://twofactorauth.org](https://twofactorauth.org)
 
 ---
 
@@ -113,19 +103,17 @@ Und so wie so:
 
 ---
 
-## website traffic:
+## website traffic
 
 * https
 
 ---
 
-## mail -- gpg
+## Email - mit GPG
 
-* wer macht das bereits?
 * GPG Keys: nur du hast den privaten Schlüssel! Backup!
-* Philips idea: make a key signing party! 🎉
-* team key abschaffen??
 * betreff/metadaten
+* Philips idea: make a key signing party! 🎉
 
 ---
 
@@ -186,10 +174,9 @@ We recommend:
 
 ## Festplatten
 
-* wer macht das? wer macht das noch nicht?
-* regelmäßige Backups (encrypted!)
-  * another location
-  * make sure they can actually be restored^^
+* regelmäßige Backups (verschlüsselt!)
+  * in 2 verschiedenen Orten aufbewahren
+  * Wiederherstellung testen^^
 * sensible Information vernichten
 
 ---
@@ -198,32 +185,36 @@ We recommend:
 
 ---
 
-## smartphones
+## Smartphones
 
 * noch unsicherer als Rechner^^
 * don't load your gpg key on your smart phone!
-* messaging (signal)
+* Messaging
 
 ---
 
-* on a windows machine:
-    * antivirus software: keep up to date, run regularly
-    * firewall
+## Auf einem Windowsrechner
+
+* Antivirus Software: regelmäßig updaten und laufen lassen
+* Firewall
 
 ---
 
-* on a public machine:
-    * use privacy mode
-    * always log out from services
+## Auf einem öffentlichen Rechner
+
+* am Besten gar nicht benutzen
+* Privacy mode im Browser
+* immer ausloggen
 
 ---
 
-* browser plugins?
- * adblock
- * umatrix
- * https everywhere
+## Im Browser
 
- * start page instead of google
+* adblock
+* umatrix
+* https everywhere
+
+* Startpage statt Google
 
 ---
 
@@ -245,8 +236,9 @@ We recommend:
 
 ## Lektüreempfehlungen
 
-* https://xeushack.com/choosing-a-strong-password-in-2017/
-* Security in a Box: https://securityinabox.org/en/
+* [https://xeushack.com/choosing-a-strong-password-in-2017/](https://xeushack.com/choosing-a-strong-password-in-2017/)
+
+* Security in a Box: [https://securityinabox.org/en/](https://securityinabox.org/en/)
 
 ---
 
