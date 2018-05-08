@@ -133,7 +133,7 @@ Und so wie so:
 ## Smartphones
 
 * noch unsicherer als Rechner^^
-* don't load your gpg key on your smart phone!
+* GPG Schlüssel nicht auf den Smartphone laden!
 * Messaging
 
 ---
@@ -147,8 +147,8 @@ Und so wie so:
 
 ## Auf einem öffentlichen Rechner
 
-* am Besten gar nicht benutzen
-* Privacy mode im Browser
+* am Besten gar nicht benutzen^^
+* Privacy Mode im Browser
 * immer ausloggen
 
 ---
