@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="generator" content="pandoc">
+  <title>(IT) Security Know Lunch</title>
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+  <link rel="stylesheet" href="reveal.js/css/reveal.css">
+  <style type="text/css">code{white-space: pre;}</style>
+  <link rel="stylesheet" href="reveal.js/css/theme/black.css" id="theme">
+  <!-- Printing and PDF exports -->
+  <script>
+    var link = document.createElement( 'link' );
+    link.rel = 'stylesheet';
+    link.type = 'text/css';
+    link.href = window.location.search.match( /print-pdf/gi ) ? 'reveal.js/css/print/pdf.css' : 'reveal.js/css/print/paper.css';
+    document.getElementsByTagName( 'head' )[0].appendChild( link );
+  </script>
+  <!--[if lt IE 9]>
+  <script src="reveal.js/lib/js/html5shiv.js"></script>
+  <![endif]-->
+</head>
+<body>
+  <div class="reveal">
+    <div class="slides">
+
+<section>
+  <h1 class="title">(IT) Security Know Lunch</h1>
+</section>
+
+<section class="slide level1">
+
+<p><img src="img/safe.jpg" height="400"></p>
+</section>
+<section class="slide level1">
+
+<blockquote>
+<p>&quot;If privacy is outlawed, only outlaws will have privacy.&quot; -- Phil Zimmermann, creator of PGP</p>
+</blockquote>
+<blockquote>
+<p>&quot;Arguing that you don't care about privacy because you have nothing to hide is no different than saying you don't care about free speech because you have nothing to say.&quot; -- Edward Snowden</p>
+</blockquote>
+</section>
+<section class="slide level1">
+
+<p><img src="img/aspirations.png" height="400"> <img src="img/pidgeon.png" height="400"></p>
+</section>
+<section id="darüber-reden-wir-heute-nicht" class="slide level1">
+<h1>Darüber reden wir heute nicht</h1>
+</section>
+<section class="slide level1">
+
+<h2 id="physical-security">Physical Security</h2>
+<ul>
+<li class="fragment">wir müssen doch wann anders davon reden</li>
+</ul>
+</section>
+<section class="slide level1">
+
+<h2 id="und-trotzdem..">Und trotzdem..</h2>
+<ul>
+<li class="fragment">Lassen Sie Ihr Gepäck nicht unbeaufsichtigt^^</li>
+<li class="fragment">Bildschirm sperren, wenn man vom Schreibtisch weggeht</li>
+</ul>
+</section>
+<section id="wovon-wir-heute-reden" class="slide level1">
+<h1>Wovon wir heute reden</h1>
+</section>
+<section class="slide level1">
+
+<p><img src="img/cyber.jpeg" height="400"></p>
+<p><small>Credits: <a href="https://cyber.equipment/" class="uri">https://cyber.equipment/</a></small></p>
+</section>
+<section class="slide level1">
+
+<ul>
+<li class="fragment">regelmäßige Updates</li>
+</ul>
+</section>
+<section id="sichere-passwörter" class="slide level1">
+<h1>Sichere Passwörter</h1>
+</section>
+<section class="slide level1">
+
+<ul>
+<li class="fragment">nur du kennst es</li>
+<li class="fragment">oder nur du hast es</li>
+</ul>
+</section>
+<section class="slide level1">
+
+<p><img src="img/password_strength.png" height="400"></p>
+<p><small>Credits: <a href="https://www.xkcd.com/936/" class="uri">https://www.xkcd.com/936/</a></small></p>
+</section>
+<section class="slide level1">
+
+<p>Was sagt uns der Comic?</p>
+<ul>
+<li class="fragment">so viele Zeichen wie möglich nutzen</li>
+<li class="fragment">kurze Passwörter mit ersetzten Zeichen sind schwierig zu merken und leicht zu knacken</li>
+</ul>
+</section>
+<section class="slide level1">
+
+<h2 id="strategien">Strategien</h2>
+<ol type="1">
+<li class="fragment">4 zufällige häufig vorkommende Wörter</li>
+<li class="fragment">Regel: Lieblingslied, -gedicht etc + Teil der Domain Name</li>
+<li class="fragment">Password manager: Enpass, KeePass</li>
+</ol>
+</section>
+<section class="slide level1">
+
+<p>Dennoch</p>
+<ul>
+<li class="fragment">aufschreiben ist ok</li>
+<li class="fragment">(nur nicht auf nem post-it, das am Bildschirm klebt)</li>
+</ul>
+</section>
+<section class="slide level1">
+
+<p>Und so wie so:</p>
+<ul>
+<li class="fragment">alle 6 Monate Password ändern</li>
+</ul>
+</section>
+<section class="slide level1">
+
+<h2 id="factor-auth">2-factor Auth</h2>
+<ul>
+<li class="fragment"><a href="https://twofactorauth.org" class="uri">https://twofactorauth.org</a></li>
+</ul>
+</section>
+<section class="slide level1">
+
+<p><img src="img/encrypt-all-the-things.png" height="400"></p>
+<p><small>Credits: <a href="http://csharpner.com/blog/index.php/encrypt-all-the-things-a-guide/" class="uri">http://csharpner.com/blog/index.php/encrypt-all-the-things-a-guide/</a></small></p>
+</section>
+<section class="slide level1">
+
+<h2 id="website-traffic">website traffic</h2>
+<ul>
+<li class="fragment">https</li>
+</ul>
+</section>
+<section class="slide level1">
+
+<h2 id="email---mit-gpg">Email - mit GPG</h2>
+<ul>
+<li class="fragment">GPG Keys: nur du hast den privaten Schlüssel! Backup!</li>
+<li class="fragment">Betreff/Metadaten</li>
+<li class="fragment">Key signing party! 🎉</li>
+</ul>
+</section>
+<section class="slide level1">
+
+<h2 id="festplatten">Festplatten</h2>
+<ul>
+<li class="fragment">regelmäßige Backups (verschlüsselt!)</li>
+<li class="fragment">in 2 verschiedenen Orten aufbewahren</li>
+<li class="fragment">Wiederherstellung testen^^</li>
+<li class="fragment">sensible Information vernichten</li>
+</ul>
+</section>
+<section id="außerdem" class="slide level1">
+<h1>Außerdem</h1>
+</section>
+<section class="slide level1">
+
+<h2 id="smartphones">Smartphones</h2>
+<ul>
+<li class="fragment">noch unsicherer als Rechner^^</li>
+<li class="fragment">GPG Schlüssel nicht auf den Smartphone laden!</li>
+<li class="fragment">Messaging</li>
+</ul>
+</section>
+<section class="slide level1">
+
+<h2 id="auf-einem-windowsrechner">Auf einem Windowsrechner</h2>
+<ul>
+<li class="fragment">Antivirus Software: regelmäßig updaten und laufen lassen</li>
+<li class="fragment">Firewall</li>
+</ul>
+</section>
+<section class="slide level1">
+
+<h2 id="auf-einem-öffentlichen-rechner">Auf einem öffentlichen Rechner</h2>
+<ul>
+<li class="fragment">am Besten gar nicht benutzen^^</li>
+<li class="fragment">Privacy Mode im Browser</li>
+<li class="fragment">immer ausloggen</li>
+</ul>
+</section>
+<section class="slide level1">
+
+<h2 id="im-browser">Im Browser</h2>
+<ul>
+<li class="fragment">adblock</li>
+<li class="fragment">umatrix</li>
+<li class="fragment"><p>https everywhere</p></li>
+<li class="fragment"><p>Startpage statt Google</p></li>
+</ul>
+</section>
+<section id="step-action-plan" class="slide level1">
+<h1>5 Step Action Plan</h1>
+</section>
+<section class="slide level1">
+
+<ol type="1">
+<li class="fragment">Regelmäßig Updates machen</li>
+<li class="fragment">Sich eine Passwort-Strategie überlegen und durchziehen</li>
+<li class="fragment">Festplatte verschlüsseln</li>
+<li class="fragment">Regelmäßige Backups auf eine externe verschlüsselte Festplatte einrichten</li>
+<li class="fragment">Verschlüsselte Kommunikation</li>
+</ol>
+</section>
+<section id="fragen" class="slide level1">
+<h1>Fragen?</h1>
+</section>
+<section class="slide level1">
+
+<h2 id="lektüreempfehlungen">Lektüreempfehlungen</h2>
+<ul>
+<li class="fragment"><p><a href="https://xeushack.com/choosing-a-strong-password-in-2017/" class="uri">https://xeushack.com/choosing-a-strong-password-in-2017/</a></p></li>
+<li class="fragment"><p>Security in a Box: <a href="https://securityinabox.org/en/" class="uri">https://securityinabox.org/en/</a></p></li>
+</ul>
+</section>
+<section id="danke" class="slide level1">
+<h1>Danke!</h1>
+<p>Dieser Vortrag steht unter der <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.de">Creative Commons BY-SA Lizenz</a>.</p>
+<p><img src="img/Cc-by_new_white.svg" alt="by" /> <img src="img/Cc-sa_white.svg" alt="sa" /></p>
+</section>
+    </div>
+  </div>
+
+  <script src="reveal.js/lib/js/head.min.js"></script>
+  <script src="reveal.js/js/reveal.js"></script>
+
+  <script>
+
+      // Full list of configuration options available at:
+      // https://github.com/hakimel/reveal.js#configuration
+      Reveal.initialize({
+
+        // Optional reveal.js plugins
+        dependencies: [
+          { src: 'reveal.js/lib/js/classList.js', condition: function() { return !document.body.classList; } },
+          { src: 'reveal.js/plugin/zoom-js/zoom.js', async: true },
+          { src: 'reveal.js/plugin/notes/notes.js', async: true }
+        ]
+      });
+    </script>
+    </body>
+</html>
